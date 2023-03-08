@@ -15,7 +15,7 @@ async def root(response_class=HTMLResponse):
             <title>Some HTML in here</title>
         </head>
         <body>
-            <h1>Fancy Surface Reconstruction 🐝</h1>
+            <h1>Fancy Surface Reconstruction 🐋</h1>
         </body>
     </html>
     """
