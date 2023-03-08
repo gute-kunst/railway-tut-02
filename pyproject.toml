@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "railway-tut-02"
+version = "0.1.0"
+description = ""
+authors = ["Johannes Gutekunst <johannes.gutekunst@t-online.de>"]
+readme = "README.md"
+packages = [{ include = "railway_tut_02" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+vtk = "*"
+fastapi = "*"
+uvicorn = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+pylint = "*"
+mypy = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
