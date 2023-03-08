@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Johannes Gutekunst <johannes.gutekunst@t-online.de>"]
 readme = "README.md"
-packages = [{ include = "railway_tut_02" }]
+packages = []
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
