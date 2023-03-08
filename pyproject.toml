@@ -8,9 +8,11 @@ packages = []
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-# vtk = "*"
+vtk = "*"
 fastapi = "*"
 uvicorn = "*"
+python-multipart = "*"
+aiofiles = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
